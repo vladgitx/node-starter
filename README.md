@@ -15,10 +15,12 @@ Then start working in `src/index.ts`.
 
 ## Scripts
 
-`npm run format` - Formatting the code
+`npm run start` - Run the code
 
-`npm run lint` - Linting the code
+`npm run build` - Bundle the code
 
-`npm run build` - Building
+`npm run format` - Format the code
 
-`npm run pre-commit` - Doing all of the above
+`npm run lint` - Lint the code
+
+`npm run pre-commit` - Build, format, and lint the code
