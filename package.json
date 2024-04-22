@@ -1,12 +1,9 @@
 {
-  "name": "og-cli",
+  "name": "node-starter",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
-  "bin": {
-    "og-cli": "dist/index.js"
-  },
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "format": "prettier --write --log-level silent 'src/**/*.{js,jsx,ts,tsx,mjs,json}'",
